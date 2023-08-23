@@ -187,6 +187,9 @@
                     </li>
                     @endif
                 </ul>
+                <div class="logout-btn">
+                    <a href="{{url('logout')}}"><span class="menu-side"><img src="assets/img/icons/logout.svg" alt=""></span> <span>Logout</span></a>
+                </div>
             </div>
         </div>
     </div>

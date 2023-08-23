@@ -1245,7 +1245,11 @@ textarea.form-control {
 	width: auto;
 }
 .logout-btn {
-	margin: 50px 0px;
+	/* margin: 50px 0px; */
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 .logout-btn a span.menu-side {
 	font-size: 18px;
@@ -1930,11 +1934,11 @@ ul.chat-user-total li i.old-users {
     -ms-transform: translate(-50%, 0);
     transform: translate(-50%, 0);
 }
-table.dataTable thead .sorting:before, table.dataTable thead .sorting:after, 
-table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting_asc:after, 
-table.dataTable thead .sorting_desc:before, table.dataTable thead .sorting_desc:after, 
-table.dataTable thead .sorting_asc_disabled:before, table.dataTable thead 
-.sorting_asc_disabled:after, table.dataTable thead .sorting_desc_disabled:before, 
+table.dataTable thead .sorting:before, table.dataTable thead .sorting:after,
+table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_desc:before, table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_asc_disabled:before, table.dataTable thead
+.sorting_asc_disabled:after, table.dataTable thead .sorting_desc_disabled:before,
 table.dataTable thead .sorting_desc_disabled:after {
 	bottom: 15px;
 }
@@ -2390,7 +2394,7 @@ table.dataTable thead .sorting_desc_disabled:after {
 .doctor-sub-list .dropdown-item {
 	padding: 0;
 }
-.doctor-sub-list .dropdown-item:focus, 
+.doctor-sub-list .dropdown-item:focus,
 .doctor-sub-list .dropdown-item:hover {
     background-color: transparent;
 }
@@ -3431,7 +3435,7 @@ table.dataTable thead .sorting_desc_disabled:after {
     display: -ms-flexbox;
     display: flex;
 }
-.call-all h4 span { 
+.call-all h4 span {
 	background: #0DBF0A;
 	border-radius: 50px;
 	width: 20px;
@@ -3704,7 +3708,7 @@ table.dataTable thead .sorting_desc_disabled:after {
     color: #fff;
 }
 .icon-mic i {
-    color: #fff;	
+    color: #fff;
 }
 .btn-join {
 	font-weight: 700;
@@ -3851,7 +3855,7 @@ table.dataTable thead .sorting_desc_disabled:after {
 -----------------------*/
 
 .meet-icons {
-	padding: 40px 0px 20px;    
+	padding: 40px 0px 20px;
 	margin-top: 40px;
 	border-top: 2px solid rgba(46, 55, 164, 0.05);
 	display: -webkit-box;
@@ -3877,7 +3881,7 @@ table.dataTable thead .sorting_desc_disabled:after {
 	text-align: center;
 	margin-right: 15px;
 }
-.meet-icons .meet-items .meet-item:last-child, 
+.meet-icons .meet-items .meet-item:last-child,
 .action-items .action-item:last-child {
 	margin-right: 0;
 }
@@ -3907,13 +3911,13 @@ table.dataTable thead .sorting_desc_disabled:after {
 	opacity: 0.8;
 	background: #2E37A4;
 }
-.meet-icons .meet-items .meet-item > a.showChatList.active,	
+.meet-icons .meet-items .meet-item > a.showChatList.active,
 .meet-icons .meet-items .meet-item > a.showInviteList.active,
  .meet-icons .meet-items .meet-item > a.hand-raise.active,
-.action-items .action-item a.record-icon.active {	
+.action-items .action-item a.record-icon.active {
     background: #2E37A4;
 }
-.meet-icons .meet-items .meet-item > a.mute-bt.stop, 
+.meet-icons .meet-items .meet-item > a.mute-bt.stop,
 .meet-icons .meet-items .meet-item > a.mute-video.stop {
     background: #2E37A4;
 }
@@ -3935,7 +3939,7 @@ table.dataTable thead .sorting_desc_disabled:after {
     display: -webkit-inline-box;
 	display: -ms-inline-flexbox;
     display: inline-flex;
-    font-size: 20px;	
+    font-size: 20px;
 	box-shadow: 0px 15px 15px rgba(229, 229, 229, 0.32);
 	border-radius: 10px;
 	color: #FFF;
@@ -3972,7 +3976,7 @@ table.dataTable thead .sorting_desc_disabled:after {
 .part-name h4 {
 	font-weight: 600;
 	font-size: 10px;
-	color: #FFF; 
+	color: #FFF;
 	margin-bottom: 0;
 	overflow: hidden;
     white-space: nowrap;
@@ -4011,7 +4015,7 @@ table.dataTable thead .sorting_desc_disabled:after {
 	height: 30px;
 }
 .more-icon a:first-child {
-	padding-left: 0;	
+	padding-left: 0;
 }
 .more-icon a:hover {
 	opacity: 0.8;
@@ -4101,7 +4105,7 @@ table.dataTable thead .sorting_desc_disabled:after {
     justify-content: center;
 }
 .meeting .join-video {
-    margin: 0 5px 10px;	
+    margin: 0 5px 10px;
 	width: 100%;
 	height: 309px;
 }
@@ -4110,7 +4114,7 @@ table.dataTable thead .sorting_desc_disabled:after {
     border-radius: 10px;
 }
 .join-video.single-user {
-    width: 23%;	
+    width: 23%;
 	flex-grow: 1;
     box-sizing: border-box;
     margin: 0 5px 10px;
@@ -4142,7 +4146,7 @@ table.dataTable thead .sorting_desc_disabled:after {
 }
 .text-box {
     height: 86px;
-    width: 86px;	
+    width: 86px;
     border-radius: 50%;
     background-color: rgba(0, 0, 0, 0.2);
     font-size: 36px;
@@ -4235,7 +4239,7 @@ table.dataTable thead .sorting_desc_disabled:after {
 	display: block;
 }
 .grid-view .join-video.single-user {
-    width: 48%;	
+    width: 48%;
 }
 .join-contents.multigrid-view {
 	max-width: 100%;
@@ -4392,7 +4396,7 @@ table.dataTable thead .sorting_desc_disabled:after {
     top: 13px;
     right: 20px;
 }
-.sub-mails li { 
+.sub-mails li {
 	padding: 0px 5px;
 	color: #333448;
 	font-size: 14px;
@@ -4505,7 +4509,7 @@ table.dataTable thead .sorting_desc_disabled:after {
 	color: #6586BF;
 	white-space: nowrap;
 }
-.email-img img { 
+.email-img img {
 	border-radius: 50px;
 	width: 48px;
 	height: 48px;
@@ -5691,7 +5695,7 @@ html.menu-opened body {
     position: relative;
     margin-bottom: 20px;
 }
-.multipleSelection .selectBox, 
+.multipleSelection .selectBox,
 .SortBy .selectBoxes {
     position: relative;
     background: #fff;
@@ -5716,7 +5720,7 @@ html.menu-opened body {
     color: #2e37a4;
     width: 20px;
     height: 20px;
-}	
+}
 .multipleSelection #checkBoxes, .SortBy #checkBox {
     display: none;
     position: absolute;
@@ -5832,7 +5836,7 @@ html.menu-opened body {
     width: 100%;
     padding: 11px 0;
 }
- 
+
 .selectBox-cont-one {
     overflow-y: inherit;
 }
@@ -6273,7 +6277,7 @@ a.btn.add-links:hover {
 	-webkit-justify-content: center;
 	-ms-flex-pack: center;
 }
-.add-group .btn-primary:hover { 
+.add-group .btn-primary:hover {
 	border: 0;
 	background: #2E37A4;
 	transition: all 0.5s ease;
@@ -6282,7 +6286,7 @@ a.btn.add-links:hover {
     -ms-transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
 }
-.add-group .btn-primary:hover img { 
+.add-group .btn-primary:hover img {
 	filter: invert(1) brightness(100);
 	transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -6881,7 +6885,7 @@ a.status-grey {
     padding-bottom: 25px;
 	margin-bottom: 25px;
 }
-.tab-content-set ul li a.active::after, 
+.tab-content-set ul li a.active::after,
 .tab-content-set ul li a:hover::after {
     position: absolute;
     content: "";
@@ -8384,7 +8388,7 @@ blockquote p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}	
+}
 .payment-details p {
     color: #fff;
     max-width: 140px;
@@ -8945,7 +8949,7 @@ td.add-remove {
 	position: relative;
 	display: -inline-flexbox;
 	display: inline-flex;
-	vertical-align: middle; 
+	vertical-align: middle;
 }
 .font-size-14 {
 	font-size: 14px;
@@ -8990,7 +8994,7 @@ td.add-remove {
 .invoice-head p {
 	font-weight: 400;
 	font-size: 16px;
-	color: #1B2559;	
+	color: #1B2559;
 	margin-bottom: 0;
 }
 .invoice-item-two {
@@ -10073,7 +10077,7 @@ textarea.form-control {
 	.app-listing {
 		display: inline-block;
 	}
-	.multipleSelection #checkBoxes, 
+	.multipleSelection #checkBoxes,
 	.SortBy #checkBox {
 		width: 100%;
 	}
@@ -10510,7 +10514,7 @@ textarea.form-control {
 	.tab-content-set li a	{
 		font-size: 16px;
 	}
-	.tab-content-set ul li a.active::after, 
+	.tab-content-set ul li a.active::after,
 	.tab-content-set ul li a:hover::after {
 		display: none;
 	}

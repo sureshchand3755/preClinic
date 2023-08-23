@@ -91,16 +91,16 @@
         <li class="nav-item dropdown has-arrow user-profile-list">
             <a href="#" class="dropdown-toggle nav-link user-link" data-bs-toggle="dropdown">
                 <div class="user-names">
-                    <h5>Liam Michael </h5>
+                    <h5>{{Str::ucfirst(Auth::user()->name)}}</h5>
                 </div>
                 <span class="user-img">
-                    <img  src="assets/img/user-06.jpg"  alt="Admin">
+                    <img  src="{{ Auth::user()->generalinfo && Auth::user()->generalinfo->profile_image ? asset('images/'.Auth::user()->generalinfo->profile_image) : 'assets/img/user-06.jpg' }}"  alt="Admin">
                 </span>
             </a>
             <div class="dropdown-menu">
-                <a class="dropdown-item" href="profile.html">My Profile</a>
-                <a class="dropdown-item" href="edit-profile.html">Edit Profile</a>
-                <a class="dropdown-item" href="settings.html">Settings</a>
+                {{-- <a class="dropdown-item" href="profile.html">My Profile</a> --}}
+                <a class="dropdown-item" href="{{url('profile')}}">My Profile</a>
+                {{-- <a class="dropdown-item" href="settings.html">Settings</a> --}}
                 <a class="dropdown-item" href="{{url('logout')}}">Logout</a>
             </div>
         </li>

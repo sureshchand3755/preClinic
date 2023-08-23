@@ -45,6 +45,8 @@ Route::middleware('guest')->name('patient.')->group(function () {
 
 Route::middleware('auth')->name('patient.')->group(function () {
     Route::get('dashboard', [PatientDashboardController::class, 'index'])->name('dashboard');
+    Route::get('profile', [PatientDashboardController::class, 'viewProfile'])->name('profile');
+    Route::post('profile', [ProfileController::class, 'store']);
     Route::get('logout', [AuthenticatedSessionController::class, 'destroy'])->name('logout');
 });
 

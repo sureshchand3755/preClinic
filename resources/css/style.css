@@ -107,6 +107,12 @@ a:focus {
 	color: #009ce7;
 	outline: none;
 }
+.logout-btn.fixed-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
 .form-control {
 	border-radius: 0;
 	box-shadow: none;
@@ -4510,7 +4516,7 @@ blockquote p {
     align-items: center;
     justify-content: space-between;
 	cursor: pointer;
-} 
+}
 .selectBox-cont {
     height: 220px;
     overflow-y: auto;
@@ -4525,16 +4531,16 @@ blockquote p {
 	height: 10px;
 }
 .selectBox-cont::-webkit-scrollbar-track {
-	box-shadow: inset 0 0 5px rgb(231, 231, 231); 
+	box-shadow: inset 0 0 5px rgb(231, 231, 231);
 	border-radius: 4px;
 }
 .selectBox-cont::-webkit-scrollbar-thumb {
-	background: rgba(231, 234, 252, 0.75); 
+	background: rgba(231, 234, 252, 0.75);
 	border-radius: 4px;
 }
 .selectBox-cont::-webkit-scrollbar-thumb:hover {
-	background: rgba(231, 234, 252, 0.75); 
-} 
+	background: rgba(231, 234, 252, 0.75);
+}
 .selectBoxes.order-by {
 	min-width: 154px;
     background: #EEF1FE;
@@ -5434,8 +5440,8 @@ blockquote p {
     display: none;
 }
 .onoffswitch-label {
-    display: block; 
-	overflow: hidden; 
+    display: block;
+	overflow: hidden;
 	cursor: pointer;
 	border-radius: 20px;
 	margin-bottom: 0;
@@ -5487,7 +5493,7 @@ blockquote p {
     margin-left: 0;
 }
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
-    right: 0px; 
+    right: 0px;
 }
 .invoice-total-box .add-links {
 	font-weight: 500;
@@ -5612,7 +5618,7 @@ blockquote p {
 .invoice-head p {
 	font-weight: 400;
 	font-size: 20px;
-	color: #1B2559;	
+	color: #1B2559;
 	margin-bottom: 0;
 }
 .invoice-item-two {
@@ -5812,7 +5818,7 @@ blockquote p {
 	border-radius: 8px;
 }
 .invoice-setting-btn .cancel-btn {
-	background: #ffbc35; 
+	background: #ffbc35;
 }
 .invoice-setting-btn .cancel-btn:hover {
 	background: #009efb
@@ -5866,7 +5872,7 @@ blockquote p {
 .toggle-password {
     position: absolute;
     right: 17px;
-    top: 16px; 
+    top: 16px;
     color: #808080;
     cursor: pointer;
 	font-size: 1.2rem;
